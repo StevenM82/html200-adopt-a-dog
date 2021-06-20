@@ -1,21 +1,19 @@
-let name = "dog1";
-let breed = "dog2";
-let adoptFee = 123.45;
-let blah;
+let name;
+let breed = "Breed: Dog";
+let adoptFee;
+let parent;
 
 function infoAboutDogs(thisDog) {
     parent = document.getElementsByTagName("article"); //shows how many elements of tag <article>
-        //parent = document.getElementsByTagName("article")[1]; references the second artical information
     
-    parent[1].style.backgroundColor = "yellow";
-    parent[2].style.fontWeight = "bold";
-    parented = parent[1].children[1].textContent; //gives me the content of <h3> of the second <article> element!!
-    let result = parent.textContent; //shows all of the text for a given article. have to pass a specific article to it
+    name = parent[2].children[1].textContent; //gives me the content of <h3> of the <article> element!!
+    parented2 = parent[1].children[2].textContent;
 
-    console.log(parented);
-    alert(parented);
+    if (name == "Poppy") {
+        alert(`${name} \n${breed} \n${parented2}`); //alerts name, breed and cost to adopt
+    } 
+    console.log(name);
     console.log(parent);
-    //console.log(blah);
 }
 
 /* This would get the information from any <article>
