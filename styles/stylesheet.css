@@ -121,6 +121,11 @@ a {
   border-top: none;
 }
 
+/*Dogs page*/
+.h3-dogs-page {
+  
+}
+
 
 /*Blog page*/
 .h4-blog {
@@ -266,9 +271,6 @@ input[type="submit"] {
   font-size: 1.25rem;
   padding: 0;
 }
-.nav > ul > li {
-  flex-direction: row;
-}
 .footer-a {
   list-style: none;
   text-decoration: none;
@@ -283,7 +285,9 @@ input[type="submit"] {
   justify-content: center;
   padding-bottom: 3.75rem;
 }
-
+.footer-links {
+  color: white;
+}
 
 /*Column widths*/
 .col-1 { width: 8.33%; }
