@@ -1,12 +1,10 @@
-function dogInformation(allThePics) {
-    let dogName = 'murphy';
-    const dogBreed = 'dog';
-    const fees = Number($123.45)
-
-    alert(dogName;
+function infoAboutDogs(name, breed, fee) {
+    alert(`name: ${name} \nbreed: ${breed} \nfee: ${fee}`); 
 }
 
-function dogAdoptButton(adoptText) {
+let currentTotal = 0; 
 
-    alert(adopt);
-}
+function runningTotal(fee) {
+    currentTotal = currentTotal + fee;
+    alert(`Your current total is $${currentTotal}`);
+} 
