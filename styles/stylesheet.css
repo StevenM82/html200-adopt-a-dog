@@ -12,6 +12,10 @@ p {
     color: rgb(61, 61, 61);
 }
 
+/* .grid-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+} */
 
 /*Header layout*/
 .header-container {
@@ -248,7 +252,6 @@ input[type="submit"] {
   grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
   background-color: rgb(25, 60, 93);
   font-size: 1.25rem;
-  gap: 2.187rem;
   align-items: center;
   justify-content: center;
 }
